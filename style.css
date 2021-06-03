@@ -1,0 +1,318 @@
+body {
+	background: #FFEFD5;
+	margin:0px;
+	text-align:justify;
+	font-family: Geneva, sans-serif;
+}
+
+nav {
+	text-align: center;
+	padding:5px;
+	background-color: #303030;
+}
+
+ul {
+	display:block;
+	padding: 15px;
+	margin: 0px;
+}
+
+nav ul li {
+	font-size: 20px;
+	font-weight: bold;
+	background-color: none;
+	padding: 5px 15px;
+	display: inline;
+	margin: 0px 20px;
+	border-radius:30px;
+}
+
+nav ul li:hover {
+	color:yellow;
+	border:1px solid yellow;
+}
+
+a {
+	text-decoration: none;
+	color:white;
+	letter-spacing: 4px;
+}
+
+a:hover {
+	color:yellow;
+}
+
+#prvideo h1 {
+	letter-spacing: 3px;
+	text-align: center;
+	padding: 0px;
+	margin:0px;
+	background-color: #303030;
+	color:yellow;
+}
+
+#prvideo img {
+	width:100%;
+	height:100%;
+	margin: 0px;
+}
+
+#drugideo {
+	padding:10px 100px;
+	background-color:#3A3A3A;
+	color:white;
+	text-align:justify;
+}
+
+#drugideo h1 {
+	text-align:center;
+}
+
+#onama {
+	letter-spacing: 3px;
+	margin:30px;
+	padding:50px;
+	text-align:justify;
+}
+
+#nudimo {
+	text-align:center;
+	border: 2px solid black;
+	margin:60px;
+	padding:30px;
+}
+
+#nudimo ul li {
+	font-size: 20px;
+	font-weight: bold;
+	background-color: none;
+	padding: 5px 15px;
+	display: block;
+	list-style-type: none;
+	margin: 0px 20px;
+	text-align:center;
+}
+
+#tekst {
+	text-align:justify;
+	padding:30px;
+}
+
+main {
+  width: 60%;
+  margin: auto;
+  text-align: justify;
+  font-size: 18px;
+  background: rgba(255, 255, 255, 0.4);
+  padding: 30px 50px;
+  margin-top: 30px;
+}
+main p {
+  text-indent: 20px;
+}
+
+button {
+	margin: 20px 0px;
+	padding: 5px 50px;
+	background-color: red;
+	border: 1px solid red;
+	color:white;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	border-radius: 20px;
+}
+
+#vozila1 {
+	background-color: lightgray;
+	padding: 10px 20px;
+	text-align: center;
+}
+
+#pocetnaSlika {
+  width: 100%;
+}
+#galerijaMain {
+  text-align: left;
+}
+#prikazSlikeSpolja {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.7);
+  left: 0px;
+  top: 0px;
+  display: none;
+ 
+}
+#prikazSlikeUnutra{
+  position: relative;
+  padding: 20px;
+  background: white;
+  margin: auto;
+  margin-top: 100px;
+  width: 700px;
+  text-align:center;
+  z-index: 20;
+  line-height: 500px;
+  vertical-align: middle;
+  font-size: 60px;
+  cursor: pointer;
+}
+
+#izlaz {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 30px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-family: 'Segoe UI';
+}
+
+#prikazSlikeUnutra img {
+  width: 600px;
+  margin: 10px;
+}
+#prikazSlikeUnutra > * {
+  vertical-align: middle;
+}
+
+#galerijaMain img {
+  width: 30%;
+  height: 190px;
+  margin: 5px;
+  margin: 5px 8px;
+  box-shadow: 5px 5px 15px grey; 
+}
+
+#galerijaMain h2 {
+  padding: 10px 20px;
+  text-align: center;
+}
+
+#kontaktMain {
+  height: 300px;
+  position: relative;
+}
+
+#istaknuti-tekst {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  text-indent: 0px;
+}
+
+hr {
+  border-top: 2px solid #ad5b08;
+}
+
+input {
+  width: 340px;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 5px;
+  font-family: 'Alice';
+}
+input[type="text"] {
+  float: left;
+  margin-left: 40px;
+}
+
+input[type="email"] {
+  float: right;
+  margin-right: 40px;
+}
+
+textarea {
+  margin-left: 40px;
+  margin-top: 20px;
+  float: left;
+  font-size: 20px;
+  width: 560px;
+  height: 150px;
+  padding-left: 15px;
+  padding-top: 10px;
+  font-family: 'Alice';
+}
+
+input[type="button"], input[type="reset"] {
+  width: 120px;
+  float: right;
+  margin-top: 30px;
+  margin-right: 40px;
+  font-size: 18px;
+  background-color: white;
+  padding: 0px;
+  cursor: pointer;
+}
+
+#obavestenje {
+  position: absolute;
+  top: 10px;
+  color: red;
+  left: 50px;
+}
+
+
+input[type="button"] {
+  border: 2px solid green;
+}
+input[type="button"]:hover {
+  background-color: darkgreen;
+  color: white;
+}
+input[type="button"]:active {
+  background: lightgreen;
+}
+
+input[type="reset"] {
+  border: 2px solid red;
+}
+input[type="reset"]:hover {
+  background-color: darkred;
+  color: white;
+}
+input[type="reset"]:active {
+  background: pink;
+}
+
+@media only screen and (max-width: 1125px ) {
+  main {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 735px ) {
+  #galerijaMain img {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 530px ) {
+  #galerijaMain img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 520px ) {
+  main {
+    padding: 30px 25px;
+  }
+  ul {
+    display: none;
+  }
+
+@media only screen and (max-width: 735px ) {
+  #galerijaMain img {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 530px ) {
+  #galerijaMain img {
+    width: 100%;
+  }
+}
+

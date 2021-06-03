@@ -1,0 +1,32 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <title>Kontakt</title>
+</head>
+<body>
+
+	<nav>
+		<ul>
+			<li><a href="index.html">POCETNA</li></a>
+			<li><a href="onama.html">O NAMA</li></a>
+			<li><a href="galerija.html">VOZILA</li></a>
+			<li><a href="kontakt.html">KONTAKT</li></a>
+			
+		</ul>
+	</nav>
+	<main id="kontaktMain">
+      <form name="forma" >
+        <h2>Pišite nam ukoliko imate bilo kakvih nejasnoća u vezi polaganja</h2>
+        <input type="text" name="ime" placeholder="Vaše ime:">
+        <input type="email" name="email" placeholder="Vaš email:">
+        <textarea name="poruka" rows="8" cols="80" placeholder="Vaše pitanje?"></textarea>
+        <input type="reset" name="" value="Poništi">
+        <input type="button" onclick="provera()" value="Potvrdi">
+        <br>
+        
+      </form>
+      <div id="obavestenje"></div>
+    </main>
+    <script src="skripte/provera.js"></script>
+</body>
+</html>
